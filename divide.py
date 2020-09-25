@@ -1,3 +1,11 @@
+"""
+A simple algorithm to divide data into training, validation and test sets. No
+shuffling. The size of test set is 1000 sentences. The size of validation set
+is 5000 sentences. All the other sentences go to training set.
+
+Change filenames to work with your own data.
+"""
+
 datafile = "small_vocab_en.txt"
 valfile = "demo_val_en.txt"
 trainfile = "demo_train_en.txt"
